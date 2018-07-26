@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5706984f-6a76-4f0c-9c5b-adf5fde0529a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/nishant/assignment3/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nishant/assignment3/BicycleQ4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nishant/assignment3/ConcreteSuper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nishant/assignment3/CycleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nishant/assignment3/Int1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nishant/assignment3/Int2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nishant/assignment3/Int3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nishant/assignment3/Int4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nishant/assignment3/MainCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nishant/assignment3/MainCycleQ4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nishant/assignment3/OuterClassOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nishant/assignment3/OuterClassTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nishant/assignment3/Tricycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nishant/assignment3/TricycleQ4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nishant/assignment3/Unicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nishant/assignment3/UnicycleQ4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nishant/assignment4/ExceptionHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nishant/assignment4/InvalidOrientationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nishant/assignment4/ShapeNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_Incremental/nishant/assignment2/Vampire.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_Incremental/nishant/assignment2/Vampire.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nishant/assignment2/Vampire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nishant/assignment2/Vampire.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,29 +20,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OuterClassOne.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nishant/assignment3/OuterClassOne.java">
+      <file leaf-file-name="ExceptionHandling.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/nishant/assignment4/ExceptionHandling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-              <folding>
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="348">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OuterClassTwo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/nishant/assignment3/OuterClassTwo.java">
+      <file leaf-file-name="ShapeNotFoundException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nishant/assignment4/ShapeNotFoundException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ColourNotFoundException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nishant/assignment4/ColourNotFoundException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvalidOrientationException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nishant/assignment4/InvalidOrientationException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -118,6 +112,10 @@
         <option value="$PROJECT_DIR$/src/nishant/assignment3/UnicycleQ4.java" />
         <option value="$PROJECT_DIR$/src/nishant/assignment3/OuterClassOne.java" />
         <option value="$PROJECT_DIR$/src/nishant/assignment3/OuterClassTwo.java" />
+        <option value="$PROJECT_DIR$/src/nishant/assignment4/InvalidOrientationException.java" />
+        <option value="$PROJECT_DIR$/src/nishant/assignment4/ColourNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/nishant/assignment4/ShapeNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/nishant/assignment4/ExceptionHandling.java" />
       </list>
     </option>
   </component>
@@ -154,27 +152,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="nishant" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java_Incremental" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_Incremental" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="nishant" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_Incremental" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_Incremental" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="nishant" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_Incremental" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_Incremental" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="nishant" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment3" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -210,7 +187,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OuterClassTwo">
+  <component name="RunManager" selected="Application.ExceptionHandling">
+    <configuration name="ExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nishant.assignment4.ExceptionHandling" />
+      <module name="java_Incremental" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nishant.assignment4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nishant.assignment3.Main" />
       <module name="java_Incremental" />
@@ -235,17 +223,6 @@
     </configuration>
     <configuration name="MainCycleQ4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nishant.assignment3.MainCycleQ4" />
-      <module name="java_Incremental" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nishant.assignment3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MainRodent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nishant.assignment3.MainRodent" />
       <module name="java_Incremental" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -309,18 +286,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.MainRodent" />
       <item itemvalue="Application.MainCycle" />
       <item itemvalue="Application.MainCycleQ4" />
       <item itemvalue="Application.OuterClassTwo" />
+      <item itemvalue="Application.ExceptionHandling" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionHandling" />
         <item itemvalue="Application.OuterClassTwo" />
         <item itemvalue="Application.MainCycleQ4" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainCycle" />
-        <item itemvalue="Application.MainRodent" />
       </list>
     </recent_temporary>
   </component>
@@ -396,7 +373,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976744" visible="true" weight="0.2756972" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.5023256" side_tool="true" weight="0.2756972" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -419,34 +396,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nishant/assignment3/Hamster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nishant/assignment3/MainRodent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nishant/assignment3/Mouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nishant/assignment3/Rodent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nishant/assignment3/Mouse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -578,13 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nishant/assignment2/Vampire.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
@@ -798,6 +740,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/nishant/assignment3/OuterClassTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/nishant/assignment3/OuterClassOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -809,15 +763,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nishant/assignment3/OuterClassTwo.java">
+    <entry file="file://$PROJECT_DIR$/src/nishant/assignment2/Vampire.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="649">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nishant/assignment4/ShapeNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nishant/assignment4/InvalidOrientationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nishant/assignment4/ColourNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nishant/assignment4/ExceptionHandling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
         </state>
       </provider>
     </entry>
