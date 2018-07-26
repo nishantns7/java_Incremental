@@ -46,6 +46,11 @@ public class Vampire {
         return vampireList;
     }
 
+    /*
+    * Checks whether the number passed to it is a vampire number or not
+    * returns true if the number is a vampire number, false otherwise
+    * @param number int containing the number to be checked
+     */
     public static boolean vampireChecker(int number) {
 
         int factors[] = new int[2];
@@ -62,6 +67,12 @@ public class Vampire {
         return false;
     }
 
+    /*
+    * Checks whether the digits in the first argument matches with those of the subsequent arguments combined
+    * Returns true if they match, false otherwise
+    * @param number integer containing the number to be checked if it is a vampire number
+    * @param factors may be passed as an integer array or as separate arguments; the factor pair to be checked for a match
+     */
     public static boolean digitMatcher(int number, int... factors) {
         int digits1[] = new int[(int)Math.log10(number) + 1];
         int digits2[] = new int[(int)Math.log10(number) + 1];
