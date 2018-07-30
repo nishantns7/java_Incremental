@@ -1,7 +1,9 @@
 package nishant.assignment3;
 
 public class MainRodent {
-
+/*
+* Demonstrates abstract classes and the overriding of its methods
+ */
     public static void main(String[] args) {
         Rodent arr[] = new Rodent[3];
         arr[0] = new Mouse();

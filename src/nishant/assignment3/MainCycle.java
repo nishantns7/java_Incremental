@@ -1,7 +1,9 @@
 package nishant.assignment3;
 
 public class MainCycle {
-
+/*
+* Demonstrates upcasting and downcasting
+ */
     public static void main(String[] args) {
         Unicycle uni = new Unicycle();
         Bicycle bi = new Bicycle();

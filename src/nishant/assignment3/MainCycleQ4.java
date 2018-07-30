@@ -1,7 +1,10 @@
 package nishant.assignment3;
 
 public class MainCycleQ4 {
-
+/*
+* Demonstrates the factory design pattern
+* Initializes the object with the right class type based on the information passed with it
+ */
     public static void main(String[] args) {
 
         CycleFactory factory = new CycleFactory();
