@@ -42,12 +42,10 @@ public class CharCounter {
 
         HashMap<Character, Integer> count = new HashMap<>();
         for(char c : text.toLowerCase().toCharArray()) {
-            if((int)c >= 97 && (int)c <= 122) {
-                if(count.get(c) == null)
-                    count.put(c, 1);
-                else
-                    count.put(c, count.get(c) + 1);
-            }
+            if(count.get(c) == null)
+                count.put(c, 1);
+            else
+                count.put(c, count.get(c) + 1);
         }
         return count;
     }
