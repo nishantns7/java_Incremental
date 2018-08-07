@@ -1,6 +1,6 @@
 package nishant.assignment6;
 
-public class SListIterator {
+public class SListIterator<T> {
 /*
 * Manipulates an existing linked list
 * addElement() method inserts elements into the list
@@ -16,7 +16,7 @@ public class SListIterator {
         tail = list;
     }
 
-    public void addElement(int n) {
+    public void addElement(T n) {
         SList element = new SList(n);
         if(head == null) {
             head = element;
@@ -28,18 +28,18 @@ public class SListIterator {
         }
     }
 
-    public void removeElement(int n) {
+    public void removeElement(T n) {
         if(head.toString().equalsIgnoreCase(tail.toString())) {
             head = null;
             tail = null;
             return;
         }
         for(SList i = head; i.next != null; i = i.next) {
-            if(head.toString().equalsIgnoreCase(Integer.toString(n))) {
+            if(head.toString().equalsIgnoreCase(String.valueOf(n))) {
                 head = head.next;
                 break;
             }
-            if(i.next.toString().equalsIgnoreCase(Integer.toString(n))) {
+            if(i.next.toString().equalsIgnoreCase(String.valueOf(n))) {
                 if(i.next == tail) {
                     tail = i;
                     tail.next = null;

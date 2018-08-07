@@ -1,8 +1,6 @@
 package nishant.assignment7;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -15,22 +13,21 @@ public class CharCounter {
  */
     public static void main(String[] args) throws IOException {
 
-        String text = getTextFromFile();
+        String text = getTextFromFile(args[0]);
         HashMap<Character, Integer> count = charCount(text);
         PrintWriter writer = new PrintWriter( "/home/zadmin/Desktop/Output.txt", "UTF-8");
-        for(char c : count.keySet()) {
-            writer.println(c + " " + count.get(c));
-        }
+        for(char c : count.keySet())
+            if (c != '\n') {
+                writer.println("The character " + c + " occurs " + count.get(c) + " times.");
+            }
         writer.close();
     }
 
     /*
     * Returns the text in the file specified by the user as a String
      */
-    public static String getTextFromFile() throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.print("Enter the full path of the file: ");
-        return new String(Files.readAllBytes(Paths.get(br.readLine())));
+    public static String getTextFromFile(String path) throws IOException {
+        return new String(Files.readAllBytes(Paths.get(path)));
     }
 
     /*

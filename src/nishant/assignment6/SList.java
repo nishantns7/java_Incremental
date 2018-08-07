@@ -1,24 +1,19 @@
 package nishant.assignment6;
 
-public class SList {
+public class SList<T> {
 /*
 * Each instance of this class is an element in the linked list
  */
-    int number;
+    T data;
     SList next;
 
     @Override
     public String toString() {
-        return Integer.toString(number);
+        return String.valueOf(data);
     }
 
-    public SList(int n) {
-        number = n;
-        next = null;
-    }
-
-    public SList() {
-        number = 0;
+    public SList(T n) {
+        data = n;
         next = null;
     }
 
