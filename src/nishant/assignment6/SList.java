@@ -2,22 +2,23 @@ package nishant.assignment6;
 
 public class SList<T> {
 /*
-* Each instance of this class is an element in the linked list
+* Each instance of this class is a linked list
  */
-    T data;
-    SList next;
+    Link head;
 
     @Override
     public String toString() {
-        return String.valueOf(data);
+        String list = "";
+        for(Link i = head ; i != null; i = i.next)
+            list += i + " ";
+        return list;
     }
 
-    public SList(T n) {
-        data = n;
-        next = null;
+    public SList(T data) {
+        head = new Link(data);
     }
 
-    public SListIterator iterator(SList list) {
-        return new SListIterator(list);
+    public SListIterator iterator() {
+        return new SListIterator(this);
     }
 }
